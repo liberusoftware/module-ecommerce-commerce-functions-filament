@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/ecommerce-commerce-functions-filament",
+  "description": "Commerce Functions Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capabilityce8483abd98d\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "ecommerce-commerce-functions-filament"
+    }
+  }
+}
